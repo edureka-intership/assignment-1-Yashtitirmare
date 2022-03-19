@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="/Images/Image1.png" class="logo" width="50" height="50"></a>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Create account</a></li>
+            </ul>
+        </header>
+    </section>
+    <div>
+        <!-- Heading of the Restaurant -->
+        <div id="page-header">Breakfast Places in Mumbai</div>
+        <!--Filter Section-->
+        <div id="filter-section">
+            <div class="title">Filters</div>
+            <div class="subtitle">Select Location</div>
+            <select id="select-location">
+                <option value="Select Location">Select Location</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <div class="subtitle" name="cuisine">Cuisine</div>
+            <div class="options"><input type="checkbox" name="cuisine">North Indian</div>
+            <div class="options"><input type="checkbox" name="cuisine">South Indian</div>
+            <div class="options"><input type="checkbox" name="cuisine">Chinese</div>
+            <div class="options"><input type="checkbox" name="cuisine">Fast Food</div>
+            <div class="options"><input type="checkbox" name="cuisine">Street Food</div>
+            <div class="subtitle" name="cost-for-two">Cost For Two</div>
+            <div class="options"><input type="radio" name="cost-for-two">Less than ₹100</div>
+            <div class="options"><input type="radio" name="cost-for-two">₹500 to ₹1000</div>
+            <div class="options"><input type="radio" name="cost-for-two">₹1000 to ₹1500</div>
+            <div class="options"><input type="radio" name="cost-for-two">₹1500 to ₹2000</div>
+            <div class="options"><input type="radio" name="cost-for-two">₹2000+</div>
+            <div class="title" name="sort">Sort</div>
+            <div class="options"><input type="radio" name="sort">Price low to high</div>
+            <div class="options"><input type="radio" name="sort">Price high to low</div>
+        </div>
+        <div class="itemsBlock">
+            <div class="items">
+                <div class="items-top">
+                    <div class="images">
+                        <img src="/Images/breakfast.jpg" class="images">
+                    </div>
+                    <div class="item-desc">
+                        <div class="restaurant-name">>The Big Chill Cakery</div>
+                        <div class="address-line1">FORT</div>
+                        <div class="address-line2">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+                    </div>
+                </div>
+                <hr />
+                <div class="items-bottom">
+                    <div class="items-bot-left">
+                        <div>CUISINES:</div>
+                        <div>COST FOR TWO:</div>
+                    </div>
+                    <div class="items-bot-right">
+                        <div>Idli Sambhar</div>
+                        <div>₹20</div>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="items-top">
+                    <div class="images">
+                        <img src="/Images/breakfast2.jpg" class="images">
+                    </div>
+                    <div class="item-desc">
+                        <div class="restaurant-name">>The Big Chill Cakery</div>
+                        <div class="address-line1">FORT</div>
+                        <div class="address-line2">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+                    </div>
+                </div>
+                <hr />
+                <div class="items-bottom">
+                    <div class="items-bot-left">
+                        <div>CUISINES:</div>
+                        <div>COST FOR TWO:</div>
+                    </div>
+                    <div class="items-bot-right">
+                        <div>Ghee Masala Dosa, Sambar, Wada & Edli</div>
+                        <div>₹800</div>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="items-top">
+                    <div class="images">
+                        <img src="/Images/breakfast1.jpg" class="images">
+                    </div>
+                    <div class="item-desc">
+                        <div class="restaurant-name">>The Big Chill Cakery</div>
+                        <div class="address-line1">FORT</div>
+                        <div class="address-line2">Shop 1, Plot D, Samruddhi Complex, Chincholi</div>
+                    </div>
+                </div>
+                <hr />
+                <div class="items-bottom">
+                    <div class="items-bot-left">
+                        <div>CUISINES:</div>
+                        <div>COST FOR TWO:</div>
+                    </div>
+                    <div class="items-bot-right">
+                        <div>Masala Dosa</div>
+                        <div>₹70</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
